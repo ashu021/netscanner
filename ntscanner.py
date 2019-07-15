@@ -25,8 +25,7 @@ def scan(ip):
     for element in answered_list:
         clients_dict={"IP":element[1].psrc,"MAC":element[1].hwsrc}
         clients_list.append(clients_dict)
-      #  print(element[1].psrc + "\t\t" + element[1].hwsrc)
-    #print(clients_list)
+    
     return clients_list
 
 #print_result function is for printing the result and for iterating
